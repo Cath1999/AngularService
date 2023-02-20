@@ -6,8 +6,8 @@ import { ListarComponent } from './Persona/listar/listar.component';
 
 const routes: Routes = [
 
-  //components routing
-{path:'listar', component:ListarComponent},
+  //component references
+{path:'list', component:ListarComponent},
 {path:'add',component:AddComponent},
 {path:'edit', component:EditComponent}
 ];

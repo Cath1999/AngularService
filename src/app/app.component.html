@@ -21,10 +21,12 @@
 </div>
 
 <div class="container">
-  <button class="btn btn-info">Listar</button>
+  <button (click)="List()" class="btn btn-info">List</button>
 &nbsp;
-  <button class="btn btn-info" style="margin: left 10px;">Nuevo</button>
+  <button (click)="New()"  class="btn btn-info" style="margin: left 10px;">New</button>
 
 </div>
-
-<router-outlet></router-outlet>
+<br>
+<app-listar></app-listar>
+ 
+<!-- <router-outlet></router-outlet> -->
